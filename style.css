@@ -1,0 +1,393 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+:root{
+    --utama: #DBD8E3;
+    --kedua: #5C5470;
+    --ketiga: #352F44;
+    --keempat: #2A2438;
+    --font-heebo: 'Heebo', sans-serif;
+    --font-Mulish: 'Mulish', sans-serif;
+    --font-Gravitasi: 'Gravitas One', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url('image/bg.jpg');
+}
+
+#pertama .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+#pertama .navbar .logo{
+    color: var(--keempat);
+    font-family: var(--font-Mulish);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#pertama .navbar ul{
+    display: flex;
+}
+
+#pertama .navbar ul li{
+    margin: 1.5rem 0rem 0rem 5rem;
+}
+
+#pertama .navbar ul li a{
+    font-size: 16px;
+    color: var(--kedua);
+    font-family: var(--font-heebo);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#pertama .navbar ul .home{
+    border-bottom: 2px solid var(--ketiga);
+    text-align: center;
+}
+
+#pertama .navbar ul .home a{
+    color: var(--keempat);
+    text-decoration: none;
+}
+
+#pertama .navbar ul .cv a{
+    background-color: var(--keempat);
+    padding: 0.5rem 3rem;
+    color: var(--utama);
+    border-radius: 4px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#pertama .container{
+    margin-top: 5rem;
+}
+
+#pertama .container .name{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid var(--keempat);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    max-height: 3.5rem;
+    max-width: 30rem;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 8px 8px 16px var(--keempat);
+}
+
+#pertama .container .name img{
+    margin: 0.2rem 0.5rem 0rem 0rem;
+}
+
+#pertama .container .name p{
+    font-size: 20px;
+    font-family: var(--font-heebo);
+    font-weight: 400;
+    color: var(--keempat);
+    margin-top: 8px;
+}
+
+#pertama .container .normal{
+    font-size: 152px;
+    font-family: var(--font-Gravitasi);
+    text-align: center;
+    margin-left: -3rem;
+    color: var(--ketiga);
+}
+
+#pertama .container .line{
+    font-size: 160px;
+    font-family: var(--font-Gravitasi);
+    line-height: 10rem;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--keempat);
+    color: transparent;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+#pertama .container .undertext{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem -2rem;
+}
+
+#pertama .container .undertext .location{
+    font-family: var(--font-Mulish);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--keempat);
+}
+
+#pertama .container .undertext .linelanjutan{
+    font-family: var(--font-Mulish);
+    font-size: 20px;
+}
+
+
+/* ~~~~~~~~  WORK PAGE  ~~~~~~~~ */
+
+#kedua .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+#kedua .navbar .logo{
+    color: var(--keempat);
+    font-family: var(--font-Mulish);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#kedua .navbar ul{
+    display: flex;
+}
+
+#kedua .navbar ul li{
+    margin: 1.5rem 0rem 0rem 5rem;
+}
+
+#kedua .navbar ul li a{
+    font-size: 16px;
+    color: var(--kedua);
+    font-family: var(--font-heebo);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#kedua .navbar ul .home a, .works a, .about a, .cv a{
+    text-decoration: none;
+}
+
+#kedua .navbar ul .works{
+    border-bottom: 2px solid var(--ketiga);
+    text-align: center;
+}
+
+#kedua .navbar ul .works a{
+    color: var(--keempat);
+}
+
+#kedua .navbar ul .cv a{
+    background-color: var(--keempat);
+    padding: 0.5rem 3rem;
+    color: var(--utama);
+    border-radius: 4px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#kedua .project{
+    margin: 1rem;
+}
+
+/* about page */
+
+
+#ketiga .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+#ketiga .navbar .logo{
+    color: var(--keempat);
+    font-family: var(--font-Mulish);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#ketiga .navbar ul{
+    display: flex;
+}
+
+#ketiga .navbar ul li{
+    margin: 1.5rem 0rem 0rem 5rem;
+}
+
+#ketiga .navbar ul li a{
+    font-size: 16px;
+    color: var(--kedua);
+    font-family: var(--font-heebo);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#ketiga .navbar ul .home a, .works a{
+    text-decoration: none;
+}
+
+#ketiga .navbar ul .about{
+    border-bottom: 2px solid var(--ketiga);
+    text-align: center;
+}
+
+#ketiga .navbar ul .about a{
+    color: var(--keempat);
+    text-decoration: none;
+}
+
+#ketiga .navbar ul .cv a{
+    background-color: var(--keempat);
+    padding: 0.5rem 3rem;
+    color: var(--utama);
+    border-radius: 4px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#ketiga .container{
+    display: flex;
+}
+
+#ketiga .container .box{
+    width: 100%;
+    min-height: 500px;
+    border-radius: 8px;
+    display: flex;
+}
+
+#ketiga .container .box .box-profile .social{
+    margin: 0rem 3rem 0rem 0rem;
+    padding: 0rem;
+}
+
+#ketiga .container .box .box-profile .social ul{
+    width: 100%;
+    text-align: start;
+}
+
+#ketiga .container .box .box-profile .social ul li{
+    padding: 0.5rem 0rem;
+    margin: 1rem 1rem;
+    font-size: 1.2vw;
+}
+
+#ketiga .container .box .box-profile .social ul li i{
+    font-size: 2vw;
+    color: var(--keempat);
+}
+
+#ketiga .container .box .box-profile .social ul li a{
+    font-size: 1.2vw;
+    font-family: var(--font-Mulish);
+    color: var(--keempat);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#ketiga .container .box .box-profile .social ul li a:hover{
+    text-decoration: underline;
+    font-size: 1.3vw;
+}
+
+#ketiga .container .box .photo{
+    -webkit-mask-image: url("image/bg-profile.png");
+    mask-image: url("image/bg-profile.png");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    margin: 3rem;
+}
+
+#ketiga .container .box .box-desk{
+    margin: 3rem 3rem 3rem 0rem;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--kedua);
+    background-color: var(--keempat);
+}
+
+#ketiga .container .box .box-desk .job{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ketiga .container .box .box-desk .job p{
+    max-width: 70%;
+    min-width: 30%;
+    margin: 1rem 0rem;
+    padding: 0.5rem 2rem;
+    letter-spacing: 2px;
+    background-color: var(--utama);
+    font-size: 1.2vw;
+    font-family: var(--font-heebo);
+    text-align: center;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+#ketiga .container .box .box-desk .job span{
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: var(--font-Mulish);
+    text-transform: uppercase;
+}
+
+#ketiga .container .box .box-desk .desk{
+    width: 100%;
+}
+
+#ketiga .container .box .box-desk .desk p{
+    padding: 0rem 2rem 1rem 2rem;
+    font-size: 1.2vw;
+    font-family: var(--font-heebo);
+    color: var(--utama);
+}
+
+#ketiga .container .box .box-desk .box-flex{
+    display: flex;
+}
+
+#ketiga .container .box .box-desk .box-flex .location{
+    margin: 0.5rem 1rem 1rem 2rem;
+}
+
+#ketiga .container .box .box-desk .box-flex .location iframe{
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+#ketiga .container .box .box-desk .box-flex .location p{
+    font-size: 1.2vw;
+    color: var(--utama);
+    font-family: var(--font-heebo);
+    font-weight: 400;
+}
+
+#ketiga .container .box .box-desk .box-flex .skill{
+    max-width: 80%;
+    margin: 0rem 2rem 1rem 0rem;
+}
+
+#ketiga .container .box .box-desk .box-flex .skill ul li{
+    max-width: 100%;
+    background-color: var(--ketiga);
+    border: 1px solid var(--kedua);
+    border-radius: 4px;
+    font-size: 1.2vw;
+    margin: 3rem 1rem 1rem 1rem;
+    padding: 0.5rem;
+    color: var(--utama);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-Mulish);
+}
